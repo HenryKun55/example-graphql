@@ -1,0 +1,24 @@
+Netflix
+{
+    Users (username: 'Gajinho') {
+        movies {
+            name,
+            year,
+            duration,
+            genre
+        },
+        series {
+            name,
+            year,
+            genre,
+            seasons {
+                number,
+                episodes {
+                    name,
+                    number,
+                    duration
+                }
+            }
+        }
+    }
+}
